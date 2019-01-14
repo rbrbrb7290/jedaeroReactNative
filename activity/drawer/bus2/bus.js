@@ -18,7 +18,6 @@ function settimeTb(timeTable) {
         slice = a.split(':'); // 시: 분: 초를 -> 시 , 분, 초로 나눠줌
         if(Number(slice[0]) - thistime.getHours>0){ 
             if(Number(slice[1] - thistime.getMinutes>0)){
-                
             }
             else{
                 return i;

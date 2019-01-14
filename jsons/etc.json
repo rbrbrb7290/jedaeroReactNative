@@ -73,5 +73,15 @@
     "name":"NAVI",
     "images":"https://raw.githubusercontent.com/WonBeomChoi/jedaeroRN_img/master/overseafood/navi.png",
     "tel":""
+  },
+  {
+    "name":"배터지는 생돈까스",
+    "images":"https://raw.githubusercontent.com/WonBeomChoi/jedaeroRN_img/master/overseafood/dongka.jpg",
+    "tel":"064-702-9925"
+  },
+  {
+    "name":"알볼로 피자",
+    "images":"https://raw.githubusercontent.com/WonBeomChoi/jedaeroRN_img/master/overseafood/pizza.PNG",
+    "tel":"064-755-8495"
   }
 ]

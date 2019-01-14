@@ -33,5 +33,10 @@
     "name":"푸라닭치킨",
     "images":"https://raw.githubusercontent.com/WonBeomChoi/jedaeroRN_img/master/chicken/puradak.png",
     "tel":"064-702-1588"
+  },
+  {
+    "name":"굽네치킨",
+    "images":"",
+    "tel":"064-702-9294"
   }
 ]
