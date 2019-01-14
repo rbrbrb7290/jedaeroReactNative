@@ -12,11 +12,11 @@ import BusTime from '../../../jsons/busschedule.json';
 // }
 //이거 버려도될듯? ㅋㅋㅋ
 function settimeTb(timeTable) {
-    var thistime = new Date();
-    for(i=0; i<timeTable.length; i++){
+    var thistime = new Date(); //현재시각
+    for(i=0; i<timeTable.length; i++){ //정문버스시간 json
         var a = timeTable[i];
-        slice = a.split(':');
-        if(Number(slice[0]) - thistime.getHours>0){
+        slice = a.split(':'); // 시: 분: 초를 -> 시 , 분, 초로 나눠줌
+        if(Number(slice[0]) - thistime.getHours>0){ 
             if(Number(slice[1] - thistime.getMinutes>0)){
                 
             }
